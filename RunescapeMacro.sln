@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerControllerService", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseService", "BaseService\BaseService.csproj", "{FF3A8F86-EF20-404F-89BE-BA747AFFE272}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{DB0B08A0-DBFE-4455-90FE-AE9C2151C089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration", "Configuration\Configuration.csproj", "{5F440FE2-85C8-40C3-8FA3-C9CDF1120E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fundamental", "Fundamental", "{B07D49C5-3A1B-4EFA-B7D8-AE058FE78B23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +27,21 @@ Global
 		{FF3A8F86-EF20-404F-89BE-BA747AFFE272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF3A8F86-EF20-404F-89BE-BA747AFFE272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF3A8F86-EF20-404F-89BE-BA747AFFE272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0B08A0-DBFE-4455-90FE-AE9C2151C089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0B08A0-DBFE-4455-90FE-AE9C2151C089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0B08A0-DBFE-4455-90FE-AE9C2151C089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0B08A0-DBFE-4455-90FE-AE9C2151C089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F440FE2-85C8-40C3-8FA3-C9CDF1120E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F440FE2-85C8-40C3-8FA3-C9CDF1120E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F440FE2-85C8-40C3-8FA3-C9CDF1120E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F440FE2-85C8-40C3-8FA3-C9CDF1120E53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF3A8F86-EF20-404F-89BE-BA747AFFE272} = {B07D49C5-3A1B-4EFA-B7D8-AE058FE78B23}
+		{DB0B08A0-DBFE-4455-90FE-AE9C2151C089} = {B07D49C5-3A1B-4EFA-B7D8-AE058FE78B23}
+		{5F440FE2-85C8-40C3-8FA3-C9CDF1120E53} = {B07D49C5-3A1B-4EFA-B7D8-AE058FE78B23}
 	EndGlobalSection
 EndGlobal
